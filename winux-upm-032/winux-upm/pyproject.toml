@@ -1,0 +1,5 @@
+[project]
+name = "winux-upm"
+version = "0.3.2"
+description = "Winux Universal Package Manager"
+requires-python = ">=3.10"
