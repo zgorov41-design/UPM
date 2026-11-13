@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "winux-upm"
+version = "0.2.0"
+description = "Winux Universal Package Manager - safe package format detection prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Winux Project"}]
+
+[project.scripts]
+upm = "upm.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["upm*"]
